@@ -9,7 +9,6 @@ app = Flask(__name__)
 def index():
     return render_template('index.html')
 
-
 rocky_url = 'spotify:artist:13ubrt8QOOCPljQ2FL1Kca'
 
 client_credentials_manager = SpotifyClientCredentials(client_id=config.client_ID, client_secret=config.client_secret)
